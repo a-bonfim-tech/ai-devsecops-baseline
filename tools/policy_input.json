@@ -1,0 +1,5 @@
+{
+  "repo_has_outputs": true,
+  "sbom_present": true,
+  "grype_present": true
+}
