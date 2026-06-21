@@ -1,6 +1,7 @@
 package policy
 
 deny contains msg if {
+  input.matches
   some i
   vuln := input.matches[i]
   vuln.vulnerability.severity == "High"
@@ -8,6 +9,7 @@ deny contains msg if {
 }
 
 deny contains msg if {
+  input.matches
   some i
   vuln := input.matches[i]
   vuln.vulnerability.severity == "Critical"

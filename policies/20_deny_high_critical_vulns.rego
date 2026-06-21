@@ -1,6 +1,7 @@
 package main
 
 deny contains msg if {
+  input.matches
   some i
   m := input.matches[i]
   m.vulnerability.severity == "High"
@@ -8,6 +9,7 @@ deny contains msg if {
 }
 
 deny contains msg if {
+  input.matches
   some i
   m := input.matches[i]
   m.vulnerability.severity == "Critical"
