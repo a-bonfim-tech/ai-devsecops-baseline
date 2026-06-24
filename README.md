@@ -16,3 +16,10 @@ All security controls are enforced before code can be merged into production bra
 Evidence artifacts are generated on each run to support auditability and compliance.
 
 This repository is intended for learning, validation, and certification-oriented use.
+
+## Security and License
+
+Security scope, safe reporting expectations, and triage handling are documented
+in [SECURITY.md](SECURITY.md).
+
+This repository is licensed under the Apache License 2.0. See [LICENSE](LICENSE).
